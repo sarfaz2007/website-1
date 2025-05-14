@@ -81,7 +81,7 @@ body{
   padding-top:50px ;
   letter-spacing:3px;
 }
-.content-3{
+.content-3 h1{
   font-size:40px;
   margin-top: 10px;
   color: rgb(255, 94, 0);
@@ -102,25 +102,71 @@ body{
   color: #ffffff;
   font-weight: bold;
   border: none;
-  
+}
+button:hover {
+  background-color: #dd5c21;
+  color: white;
+  cursor: pointer;
 }
 
 
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 1300px) {
  .content-2{
   left: 600px;
  }
 
   .image-1 img{
     margin-left: 150px;
+    margin-right:100px ;
     
   }
 
 }
+@media only screen and (max-width: 1200px) {
+ .image-1 img{
+  margin-left:120px ;
+  height:450px ;
+ }
+ .content-2{
+  height: 300px;
+  width: 450px;
+  font-size: 10px;
+  left:500px;
+ }
+ .content-3{
+  font-size: 30px;
+ }
+
+}
 @media only screen and (max-width: 1100px) {
- 
+  .content-2{
+    left: 400px;
+    height: 330px;
+    width: 400px;
+  }
+  .image-1 img{
+    margin-left: 100px;
+    height: 420px;
+  }
+
+  .content-3 h1{
+  font-size:20px;
+}
 
 }
 @media only screen and (max-width: 1000px) {
+.content-2{
+  left: 300px;
+  height: 250px;
+  width: 350px;
+  font-size: 16px;
+
+}
+.image-1 img{
+  margin-left: 70px;
+    height: 400px;
+
+}
 
 }
