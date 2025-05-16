@@ -51,13 +51,17 @@ body{
 
   .main-sec-1{
     position: relative;
+
   }
 
   .image-1 img{
     height:550px;
     border-radius: 30px;
-    margin:150px;
-    margin-left:325px;
+    margin:150px 0 150px 250px;
+
+    
+    
+    
   }
 
 .section-1{
@@ -76,16 +80,21 @@ body{
   border-radius:40px;
   top: 450px;
   padding-left:50px;
-  font-size: 20px;
   font-family: sans-serif;
   padding-top:50px ;
   letter-spacing:3px;
+}
+.content-2 h3{
+   font-size: 20px;
+  font-weight: 500;
+
 }
 .content-3 h1{
   font-size:40px;
   margin-top: 10px;
   color: rgb(255, 94, 0);
   font-style: oblique;
+   font-weight: 900;
 }
 .content-4 p{
   margin-top: 20px;
@@ -127,11 +136,12 @@ button:hover {
  .image-1 img{
   margin-left:120px ;
   height:450px ;
+  margin-right: 80px;
  }
  .content-2{
-  height: 300px;
+  height:500px;
   width: 450px;
-  font-size: 10px;
+  /* font-size: 10px; */
   left:500px;
  }
  .content-3{
@@ -147,6 +157,7 @@ button:hover {
   }
   .image-1 img{
     margin-left: 100px;
+    margin-right: 60px;
     height: 420px;
   }
 
@@ -160,13 +171,42 @@ button:hover {
   left: 300px;
   height: 250px;
   width: 350px;
-  font-size: 16px;
+  
 
 }
 .image-1 img{
   margin-left: 70px;
-    height: 400px;
+  margin-right: 50px;
+  height: 400px;
 
+}
+
+}
+@media only screen and (max-width: 900px){
+ .content-2{
+  left: 270px;
+  height:280px;
+  width: 330px;
+  /* font-size:20px; */
+}
+.image-1 img{
+  margin-left: 50px;
+  margin-right: 40px;
+  height: 350px;
+
+}
+
+}
+@media only screen and (max-width: 800px){
+ .content-2{
+  left: 250px;
+  height:260px;
+  width: 310px;
+}
+.image-1 img{
+  margin-left: 40px;
+  margin-right: 35px;
+  height: 330px;
 }
 
 }
