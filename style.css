@@ -398,9 +398,11 @@ button:hover {
   font-size: 20px;
   padding-top: 10px;
 }
-.section-5{
-  height:1000px;
+
+.section-5 {
+  height: 1000px;
 }
+
 .sec-5-img {
   position: relative;
   width: 917px;
@@ -442,7 +444,7 @@ button:hover {
   z-index: 15;
   right: -200px;
   padding: 25px;
-  
+
 }
 
 .sec-5-imgcontent h1 {
@@ -456,33 +458,37 @@ button:hover {
   margin-top: 25px;
   font-family: sans-serif;
   font-size: 17px;
-  line-height:25px;
-  color:#514848;
+  line-height: 25px;
+  color: #514848;
 
 }
-.section-6{
+
+.section-6 {
   height: 600px;
   background: #4bbfd8;
- 
+
 }
-.section-6-content{
-   color: white;
+
+.section-6-content {
+  color: white;
   text-align: center;
-  justify-content:center;
+  justify-content: center;
   padding-top: 100px;
   font-size: 40px;
   font-family: sans-serif;
 }
-.sec-6-cntnt-2{
+
+.sec-6-cntnt-2 {
   color: white;
   text-align: center;
   justify-content: center;
-  font-size:25px ;
+  font-size: 25px;
   font-family: sans-serif;
   padding-top: 20px;
 }
-.button-3{
-   height: 50px;
+
+.button-3 {
+  height: 50px;
   width: 200px;
   margin-top: 77px;
   border-radius: 50px;
@@ -490,38 +496,42 @@ button:hover {
   background: #4bbfd8;
   color: #ffffff;
   font-weight: bold;
-  border:2px solid white;
+  border: 2px solid white;
 }
+
 button:hover {
   background-color: #ffffff;
-  color:  #4bbfd8;
+  color: #4bbfd8;
   cursor: pointer;
   text-align: center;
   justify-content: center;
-  
+
 }
-.section-7{
+
+.section-7 {
   height: 500px;
   display: flex;
   justify-content: center;
   margin-top: 50px;
   position: relative;
- gap: 10px;
+  gap: 10px;
 
 }
-.section-7-img img{
+
+.section-7-img img {
   height: 500px;
-  width:500px;
+  width: 500px;
   border-radius: 35px;
   margin-left: 20px;
 
 
 }
-.sec-7-content{
+
+.sec-7-content {
   position: absolute;
   height: 300px;
-  width:400px;
-  background:#4bbfd8;
+  width: 400px;
+  background: #4bbfd8;
   border-radius: 50px;
   text-align: center;
   color: #ffffff;
@@ -531,35 +541,108 @@ button:hover {
   padding-top: 36px;
   margin-top: 116px;
 }
-.section-7 p{
-  font-size:18px;
+
+.section-7 p {
+  font-size: 18px;
   text-align: center;
-  padding-top:10px ;
+  padding-top: 10px;
   line-height: 25px;
 }
-.sec-7-freepik{
-  font-style:italic;
+
+.sec-7-freepik {
+  font-style: italic;
   margin-top: 23px;
 }
-.section-8{
-  height:900px;
- 
-}
-.section-8-img{
+
+.section-8 {
+  height: 900px;
   position: relative;
-  height:863px;
-  overflow: hidden;
-  width:100%;
-  margin-top: 60px;
-  
+
 }
-.section-8-content{
+
+.section-8-img {
+
+  height: 863px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 60px;
+
+}
+
+.section-8-content {
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 500px;
   background: #e76c08;
-  border-radius: 30px;
-  display: flex;
+  border-radius: 50px;
+  top: 130px;
+  left: 150px;
+}
+
+.section-8-content-2 {
+  position: absolute;
+  height: 450px;
+  width: 600px;
+  background: #ffffff;
+  border-radius: 50px;
+  top: 200px;
+  left: 230px;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.section-8-content-2 h1 {
+  top: 200px;
+  left: 230px;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-left: px;
+  color: #e76c08;
+}
+
+.section-8-content-2 p {
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.sec-8-button {
+  height: 60px;
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  background: #dd5c21;
+  color: #ffffff;
+  font-weight: bolder;
+  border: 2px solid #dd5c21;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #dd5c21;
+  cursor: pointer;
+
+}
+.section-9{
+  height: 1000px;
+  background: #b1adafee
+}
+.sec-9-head{
   text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-top: 100px;
+  color: #e76c08;
 
 }
