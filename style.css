@@ -3,20 +3,22 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body{
-    margin: 0%;
-} 
-.navbar{
-    height:auto;
-    background: #ffffff;
-    width:100%;
-    font-family:monospace;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size:20px;
-    padding:10px;
-   
+
+body {
+  margin: 0%;
+}
+
+.navbar {
+  height: auto;
+  background: #ffffff;
+  width: 100%;
+  font-family: monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px;
+
 }
 
 .menu-bar {
