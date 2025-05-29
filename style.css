@@ -658,23 +658,43 @@ button:hover {
    margin-bottom: 25px;
   height: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .sec-9-grid .item-1{
-  height: 300px;
+  height: 345px;
   width: 300px;
   font-size: 16px;
   background: #adece9;
-  font-family: sans-serif;
+  font-family:sans-serif;
   line-height:25px;
   border-radius: 30px;
-  padding-left: 10px;
+  padding: 20px;
+  color: #727171;
+  line-height: 28px;
+}
+.sec-9-freepik{
+  padding-top: 25px;
+  color: #000;
+
+}
+.sec-9-grid .item-2 img{
+  width: 280px;
+  height: 345px;
+  border-radius: 30px;
+  margin-left: 18px;
 }
 
-.sec-9-grid .item-3 {
+.sec-9-grid .item-3 img{
   grid-column: 3 / span 4;
+  border-radius: 30px;
+  height:345px;
+  margin-left: 18px;
+  width:500px;
 }
 
-.sec-9-grid .item-4{
+.sec-9-grid .item-4 img{
   grid-column: 1 / span 2;
+  height: 345px;
+  border-radius: 30px;
+
 } 
