@@ -765,4 +765,77 @@ button:hover {
 }
 .section-10{
   height: 1000px;
+  background:#60daf8;
+  position: relative;
+}
+.section-10 img{
+  position: absolute;
+  margin-left:500px;
+  width: 900px;
+  height: 650px;
+  border-radius: 50px;
+  margin-top: -100px;
+}
+
+.head-1{
+  position: absolute;
+  height:350px;
+  width:500px;
+  background: #fbfcfb;
+  margin-left: 350px;
+  margin-top:-290px;
+  border-radius: 50px;
+  z-index: 10;
+ padding-left: 30px;
+  font-size: 30px;
+  padding-top: 100px;
+  /* font-family:initial; */
+  font-weight: 800;
+  color:#60daf8;
+}
+.sec-10-freepik {
+  padding-top: 12px;
+  color: #000;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.sec-10-content-3{
+  position: absolute;
+  height: 300px;
+  width:900px;
+  background: snow;
+  right:150px;
+  z-index: 15;
+  border-radius: 50px;
+  margin-top: 450px;
+  padding:25px;
+  padding-top:50px;
+  line-height: 30px;
+  font-family:sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 15px;
+  display: flex;
+  
+  
+
+}
+.form-item{
+  display: flex;
+  flex-direction: column;
+
+}
+.form-item input {
+
+  width: 300px;
+  /* width: auto; */
+  padding: 10px;
+  font-size: large;
+  background: #b6acac;
+  border: none;
+  gap:20px;
+}
+
+.form-item input:focus{
+  outline: none;
 }
