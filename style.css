@@ -764,7 +764,7 @@ button:hover {
 
 }
 .section-10{
-  height: 1000px;
+  height:800px;
   background:#60daf8;
   position: relative;
 }
@@ -792,6 +792,7 @@ button:hover {
   /* font-family:initial; */
   font-weight: 800;
   color:#60daf8;
+  font-family: sans-serif;
 }
 .sec-10-freepik {
   padding-top: 12px;
@@ -804,7 +805,7 @@ button:hover {
   height: 300px;
   width:900px;
   background: snow;
-  right:150px;
+  right:350px;
   z-index: 15;
   border-radius: 50px;
   margin-top: 450px;
@@ -814,28 +815,82 @@ button:hover {
   font-family:sans-serif;
   color: grey;
   font-weight: lighter;
-  font-size: 15px;
+  font-size:20px;
   display: flex;
-  
-  
-
+  gap: 20px;
 }
 .form-item{
   display: flex;
   flex-direction: column;
-
 }
 .form-item input {
-
-  width: 300px;
+  width:243px;
   /* width: auto; */
   padding: 10px;
   font-size: large;
-  background: #b6acac;
+  background: #eee8e8;
   border: none;
-  gap:20px;
+}
+.form-item label{
+  color: #000;
 }
 
 .form-item input:focus{
   outline: none;
+}
+.form-item-section{
+  display: flex;
+  gap: 15px;
+}
+.form-item-0 input{
+  width:500px;
+}
+.sec-10-button{
+  width:501px;
+  height: 50px;
+  border-radius:30px ;
+  margin-top: 15px;
+  background:#ff6b29;
+  border:none;
+  color: white;
+  font-family:sans-serif;
+  font-size:20px;
+  font-weight: 700;
+  text-align: center;
+}
+button:hover {
+  background-color:rgb(28, 28, 51);
+  color: white;
+  cursor: pointer;
+
+}
+.section-11{
+  height: 250px;
+  background: #302e2e;
+}
+.sec-11-content-1{
+  color: #ffffff;
+font-family: sans-serif;
+text-align: center;
+justify-content: center ;
+padding-top: 60px;
+font-size:15px;
+
+}
+.sec-11-content-2{
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-top: 85px;
+  font-size: 15px;
+}
+
+.sec-11-content-2 a{
+  color: #88ebe6;
+}
+
+
+.sec-11-content-2 a:hover{
+  color: #8c9597;
 }
